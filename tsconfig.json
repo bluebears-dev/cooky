@@ -3,7 +3,7 @@
     /* Basic Options */
     "target": "esnext",
     /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017','ES2018' or 'ESNEXT'. */
-    "module": "commonjs",
+    "module": "ESNext",
     /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
     "lib": [
       "es6"
@@ -76,8 +76,12 @@
   },
   "exclude": [
     "node_modules",
-    "babel.config.js",
-    "metro.config.js",
-    "jest.config.js"
+    "babel.config.json",
+    "metro.config.json",
+    "jest.config.json"
+  ],
+  "include": [
+    "src",
+    "test"
   ]
 }
